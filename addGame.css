@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.4em;
+}
+body{
+    background: #050e2d;
+    background-image: url("re.jpg");
+            background-repeat: no-repeat;
+}
+#upload_container{
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#upload_container form{
+    display: flex;
+    flex-direction: column;
+
+}
+#upload_container form input{
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgb(58, 24, 159);
+    margin-bottom: 8px;
+}
+#upload_container form button{
+    padding: 8px;
+    outline: none;
+    background-color: royalblue;
+    border: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+}
+#upload_container form input[type="submit"]{
+    background-color: none;
+    border: none;
+}
+#upload_container form input[type="submit"]:hover{
+    background-color: #1aeeef;
+    cursor: pointer;
+    border: 1px solid;
+}
